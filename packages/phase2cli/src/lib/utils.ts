@@ -320,7 +320,7 @@ export const generateCustomUrlToTweetAboutParticipation = (
               ceremonyName.toLowerCase().includes("ceremony")
                   ? "!"
                   : "%20Phase%202%20Trusted%20Setup%20ceremony!"
-          }%20You%20can%20view%20my%20final%20attestation%20here:%20${gistUrl}%20#Ethereum%20#ZKP%20#PSE`
+          }%20You%20can%20view%20my%20final%20attestation%20here:%20${gistUrl}%20#aelf%20#ZKP`
         : `https://twitter.com/intent/tweet?text=I%20contributed%20to%20the%20${ceremonyName}${
               ceremonyName.toLowerCase().includes("trusted") ||
               ceremonyName.toLowerCase().includes("setup") ||
@@ -328,7 +328,7 @@ export const generateCustomUrlToTweetAboutParticipation = (
               ceremonyName.toLowerCase().includes("ceremony")
                   ? "!"
                   : "%20Phase%202%20Trusted%20Setup%20ceremony!"
-          }%20You%20can%20view%20the%20steps%20to%20contribute%20here:%20https://ceremony.pse.dev%20You%20can%20view%20my%20attestation%20here:%20${gistUrl}%20#Ethereum%20#ZKP`
+          }%20Check%20it%20out%20here%3A%20%20${gistUrl}%0ASimply%20follow%20the%20guide%20below%20and%20join%20me%20in%20building%20a%20safer%20%23web3%21%20%0A%F0%9F%94%97%3A%20https%3A%2F%2Fmedium.com%2Fportkey-aa-wallet-did%2Fportkey-zklogin-groth16-trusted-setup-contributor-guide-e1fe0e6729fd%20%0A%40Portkey_DID%20%23ZKP%20%23Groth16%20%23aelf`
 
 /**
  * Return a custom progress bar.

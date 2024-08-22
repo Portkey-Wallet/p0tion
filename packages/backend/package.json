@@ -1,6 +1,6 @@
 {
     "name": "@p0tion/backend",
-    "version": "1.2.4",
+    "version": "1.2.5",
     "description": "MPC Phase 2 backend for Firebase services management",
     "repository": "git@github.com:privacy-scaling-explorations/p0tion.git",
     "homepage": "https://github.com/privacy-scaling-explorations/p0tion",
@@ -41,7 +41,7 @@
         "firebase:deploy-functions": "firebase deploy --only functions --project prod",
         "firebase:deploy-firestore": "yarn firestore:get-indexes && firebase deploy --only firestore --project prod",
         "firebase:log-functions": "firebase functions:log --project prod",
-        "firestore:get-indexes": "firebase firestore:indexes --project prod > firestore.indexes.json",
+        "firestore:get-indexes": "firebase firestore:indexes --project prod ",
         "emulator:serve": "yarn build && firebase emulators:start",
         "emulator:serve-functions": "yarn build && firebase emulators:start --only functions",
         "emulator:shell": "yarn build && firebase functions:shell",
